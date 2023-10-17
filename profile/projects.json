@@ -1,0 +1,120 @@
+{
+    "projects" : [
+
+        {
+            "image": "images/projects/ratvr.png",
+            "title": "Small Rodent VR",
+            "bodyText": "The third generation of VR system to be used in the Keck Center for Neurophysics for small rodents. I created custom air bearings to support any material spherical treadmill with near zero rotational resistance. The new system also uses camera based tracking to create a 2-d fictive path from ball rotations plugged into a unity game.",
+            "links": [
+                {
+                    "text": "Demo",
+                    "href": "https://www.physics.ucla.edu/~mayank/videos/journal.pone.0080465.s005.MP4"
+                }
+            ],
+            "tags": ["Research"]
+        },
+        {
+            "image": "images/projects/reu.png",
+            "title": "Keck Center for Neurophysics REU",
+            "bodyText": "A summer research project looking at image selectivity in the mouse brain visual pathway. Mice were implanted with Neuropixel probes and shown different images while spike data was collected. Data parsing and statistical significance analysis (such as KS-tests) revealed many interesting things about how neurons in different brain regions code for visual stimuli.  At the end I was able to create a conditional GAN to recreate images being seen by the mouse based on neuronal population dynamics.",
+            "tags": ["Research"]
+        },
+        {
+            "image" : "images/projects/hand.png",
+            "title": "Bionics Lab Hand Tracking",
+            "bodyText": "An ongoing research project studying the effectiveness of VR for fine motor function rehabilitation. Along with a graduate student, I developed wireless IMU based hand tracking hardware. I then wrote C# bindings to integrate the Mujoco physics engine into Unity and create an interactable VR game. Further research is currently being conducted using the system.",
+            "tags": ["Research"]
+        },
+        {
+            "image" : "images/projects/vrRobot.jpg",
+            "title": "Bionics Lab Big Fucking Robot",
+            "bodyText":"A project to develop a full body exoskeleton for movement in VR. Along with a graduate student, I wrote control software to utilize Mujoco for modeling virtual object forces. I developed the VR rendering system and communication system to accurately sync visuals. I also wrote bindings for OpenCV to track fiducial markers and localize the exo in real world to the headset in VR space.",
+            "links": [
+                {
+                    "text": "Demo",
+                    "href": "https://drive.google.com/file/d/1xa-7aLZUPgkldeXvfxBuRwEvOSaeBI5D/view?usp=sharing"
+                }
+            ],
+            "tags": ["Research"]
+        },
+        {
+            "image": "images/projects/rehabVR.png",
+            "title": "Rehab VR",
+            "bodyText": "A game designed under the UCLA bionics lab for use in testing the effectiveness of VR for remote stroke rehabilitation. I designed several games with embedded standard rehab techniques utilising full body tracking. I also created an intuitive control dashboard for technicians running the rehab training, allowing them to see useful metrics and control the game experience.",
+            "links": [
+                {
+                    "text": "Demo",
+                    "href": "https://drive.google.com/file/d/1Z-M3F0SymvFfmtTckYRkGKyR7Ub9iVZq/view?usp=sharing"
+                }
+            ],
+            "tags": ["Research"]
+
+        },
+        {
+            "image": "images/projects/STRBconcept.png",
+            "title": "PBPL Mithra Control Systems",
+            "bodyText": "PBPL is a research center for intense relativistic beams, where I worked on commissioning their new RF-based accelerator. I wrote software combining many common communication standards (GPIB, UART, etc.) for various beamline components into a centralized control system. I also wrote a custom imaging software to automate beamline control through computer vision.",
+            "links": [
+                {
+                    "text": "Website",
+                    "href": "http://pbpl.physics.ucla.edu/index.html"
+                }
+            ],
+            "tags": ["Work Experience"]
+        },
+        {
+            "image" : "images/projects/fsaedash.png",
+            "title": "FSAE Dashboard",
+            "bodyText": "A DAQ interface developed in QT for the Bruin Racing formula car. From engine rpm to wheel temps, the system recorded data and displayed it in real time to the driver.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/Cobular/BruinFormulaDash"
+                }
+            ],
+            "tags": ["Club Project"]
+        },
+        {
+            "image" : "images/projects/osuboard.png",
+            "title": "Osu Board",
+            "bodyText": "The Osu Board is a custom keyboard for the rythmn game osu! Really it was an excuse to write custom HID and LED controllers in Rust for the RP2040 chip. I also made a cross platform control app for key remapping and color control.",
+            "links": [
+
+            ],
+            "tags": ["Personal Project"]
+        },
+        {
+            "image" : "",
+            "title": "FPGA Video Player",
+            "bodyText": "With two labmates, I made a video player on the Nexys3 FPGA that could play 8-bit video over VGA. We used what we learned over the quarter to compress the video into FPGA memory and write the clocks to send data over VGA while dealing with video controls (like pausing). I learned a ton about low level video processing on this project!",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/vinlin24/csm152a-lab4"
+                }
+            ],
+            "tags": ["Classwork"]
+        },
+        {
+            "image" : "",
+            "title": "Music Copyright Fabric Network",
+            "bodyText":"A summer research project at the UCSD supercomputer center focusing on the usage of distributed ledger technology for musical copyright. I wrote custom python scripts to perform robust song identification using audio fingerprints from spectrum analysis and FFT. I also created a consortium blockchain that could store this audio information, allowing for distributed and immutable proof of creation. I learned a lot about signal processing and blockchain networks in this project.",
+            "tags": ["Research"]
+        },
+        {
+            "image": "images/projects/flashPlayer.gif",
+            "title": "Flash Music Player",
+            "bodyText": "A simple audio player, based on an ATtiny85, that plays audio samples from a DataFlash chip. The DataFlash board was based around the low cost 4Mbyte Winbond W25Q32FVSIG DataFlash chip. This was one of my favourite mini projects, and I learned a lot about flash circuit design, clocking, and smd soldering.",
+            "tags": ["Personal Project"]
+
+        },
+        {
+            "image": "images/projects/snotes.png",
+            "title": "Snotes",
+            "bodyText": "A note taking app written in C# Maui for cross platform on android and windows. Some friends and I starting developing this when we got tired of apps like OneNote and Squid. We added nice features like pdf opening and multithreading drawing and erasing that eliminated pen lag.",
+            "tags": ["Personal Project"]
+        }
+
+
+    ]
+}
