@@ -27,7 +27,7 @@
         },
         {
             "image" : "images/projects/vrRobot.jpg",
-            "title": "Bionics Lab Big Fucking Robot",
+            "title": "Bionics Lab 5 Arm VRExo",
             "bodyText":"A project to develop a full body exoskeleton for movement in VR. Along with a graduate student, I wrote control software to utilize Mujoco for modeling virtual object forces. I developed the VR rendering system and communication system to accurately sync visuals. I also wrote bindings for OpenCV to track fiducial markers and localize the exo in real world to the headset in VR space.",
             "links": [
                 {
